@@ -1,0 +1,500 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.img-fluid {
+  width: 80px;
+  height: 80px;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+#menu-res{
+  margin-left: 40%;
+}
+
+
+
+.nav {
+  margin-left: 20%;
+  padding-right: 5%;
+}
+
+.nav ul li a {
+  font-size: 0.4cm;
+  font-weight: 600;
+  margin: 10px;
+  text-align: center;
+}
+
+.nav-heading {
+  font-size: 0.5cm;
+}
+
+.nav .active {
+  background-color: #00308F;
+}
+
+.bg {
+ 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* .front-page{
+  background-color: #00308F;
+  width: 80%;
+  margin-left: 10%;
+ padding-top: 5%;
+  padding-bottom: 5%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} */
+
+.ncc-heading {
+  font-family: 'Pushster', cursive;
+  font-family: 'Rubik', sans-serif;
+
+  /* margin: 200px;
+      text-align: center; */
+}
+
+.ncc-heading .h1 {
+  color: white;
+/* text-decoration: none; */
+  /* margin: auto; */
+}
+
+.ncc-heading .form-control {
+  width: 300px;
+  /* text-align: center; */
+  /* align-items: center; */
+  position: relative;
+
+  /* margin:0 auto; */
+}
+
+.ncc-heading {
+  margin-top: 33%;
+  margin-bottom: 10%;
+  /* background-color: #00308F;
+  width: 80%;
+  padding: 5% 0px;
+  color: #0f0f0f; */
+
+text-shadow: -1px -1px 3px #020202, 
+      2px 2px 4px #1b1b1b;
+}
+
+.ncc-search {
+  justify-content: center;
+}
+
+#ncc-activities{
+  margin: 4%;
+  
+}
+
+
+#activities-link{
+  text-decoration: none;
+  color: black;
+}
+
+#activities-link:hover{
+  color: #00308F;
+ 
+}
+
+#activities-image{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+ 
+  
+}
+
+#activities-image:hover{
+  opacity: 0.7;
+ 
+}
+
+/*----------------------------------------aero modeelling CSS-------------------------------*/
+
+#modelling-cards{
+  margin: 5%;
+}
+
+
+
+
+/*----------------------------------------footer CSS-------------------------------*/
+#mainFooter .footer-top {
+  background-color: #01050e;
+  padding: 6px 0;
+}
+
+#mainFooter ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mainFooter ul li {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+}
+
+#mainFooter ul li a {
+  display: inline-block;
+  color: white;
+}
+
+#mainFooter .footer-bottom {
+  background-color: #00308F;
+  color: #fff;
+  padding: 25px 0 50px;
+}
+
+#mainFooter .copyRights .copyRightsText {
+  font-size: 0.85em;
+  margin: 0 auto 25px;
+  max-width: 500px;
+}
+
+.mr-none {
+  margin: 0 !important;
+}
+
+#mainFooter .footer-bottom a {
+  color: #00308F;
+}
+
+#mainFooter .copyRights .copyRightsText p {
+  margin: 0 0 15px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+#mainFooter .copyRights .copyRightsLogos a {
+  display: inline-block;
+  padding: 7px 30px;
+  position: relative;
+}
+
+#mainFooter .copyRights .copyRightsLogos a:after {
+  background-color: #3f3f3f;
+  width: 1px;
+  height: 60px;
+  right: -2px;
+  top: 0;
+  position: absolute;
+  content: "";
+}
+
+#mainFooter ul li.Contact :after {
+  display: inline-block;
+  content: "/";
+  margin: 0 10px;
+  color: #fff;
+}
+
+
+
+#carouselExampleIndicators {
+  margin: 4%;
+  margin-top: 15%;
+}
+
+/* ---------------------------------------------heading css---------------------- */
+
+#heading-activity {
+  margin: 7%;
+  margin-top: 15%
+
+}
+
+/*-----------------------------history content------------------------------------  */
+
+#history-content {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: justify;
+}
+
+/* ----------------------------contact css--------------------------------------- */
+
+#ncc-form {
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+form label {
+  font-size: 20px;
+}
+
+.details ul li{
+  list-style: none;
+  padding: 30px 0px;
+}
+.details i {
+  padding-right: 10px;
+}
+
+.details .fa {
+  font-size: 20px;
+  line-height: 15px;
+  transition: .6s;
+  color: #000;
+}
+
+.details i:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  transform: translate(0, -10px);
+}
+
+#contact-details h3 {
+  
+  padding: 30px;
+
+}
+/* -------------------------------camp CSS-------------------------------- */
+
+#read-btn{
+  background-color: transparent;
+  color: #2aacea;
+  border: 1px solid #00308F !important;
+}
+
+#read-btn:hover{
+  background-color: #00308F;
+  color: white;
+}
+
+#national-camps{
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+#national-camps img{
+  width: 420px;
+  height: 270px;
+}
+
+/* ---------------------------------firing css------------------------------------------- */
+
+#firing-card{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+/* ---------------------------------flying css------------------------------------------- */
+
+#viewbutton{
+  background-color: transparent;
+  border: 2px solid #00308F;
+  color: black;
+  margin-bottom: 5%;
+ 
+}
+
+#viewbutton:hover{
+  background-color: #00308F;
+  color: white;
+}
+/* ---------------------------------uniform css------------------------------------------- */
+
+#uniform-image {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 5%;
+}
+/* --------------------------------study cs---------------------------------------- */
+
+#activities-group{
+  margin: 5%;
+}
+
+/* --------------------------------study cs---------------------------------------- */
+
+.table{
+
+   width: 85%;
+   margin: 5%;
+   margin-left: 8%;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#cards-table{
+  display: flex;
+}
+
+#cards-library img{
+  width: 110px;
+  height: 110px;
+}
+
+#cards-library{
+  margin-top: 5%;
+  
+}
+
+#card-size{
+  width: 150px;
+}
+
+/* ------------------------------------------alumini cards css--------------- */
+
+#cards-alumini img{
+  width: 120px;
+  height: 120px;
+}
+
+/* ------------------------------------------alumini form css--------------- */
+
+#ncc-form table{
+  border: none;
+}
+
+#ncc-form table tr td{
+  padding-top: 20px;
+  font-size: 1.3rem;
+}
+
+#submit-btn{
+   padding: 0% 2%;
+}
+
+
+/* -------------gallery css----- */
+
+#gallery{
+  margin: 5%;
+}
+
+#backbutton{
+  margin-bottom: 5%;
+}
+
+/*-----------------------------------------------half troops css------------------------*/
+.table1{
+
+  width: 95%;
+  margin: 3%;
+  /* margin-left: 8%; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+/* -----------------------------------------------css carasouel------------------ */
+/* html, body, main {
+  margin-top: -30%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.carousel-shooting{
+  margin-top: -10%;
+  margin-bottom: -5%;
+}
+
+#carousel {
+  position: relative;
+  height: 400px;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+#carousel div {
+  position: absolute;
+  transition: transform 400ms, left 400ms, opacity 400ms, z-index 0s;
+  opacity: 1;
+}
+#carousel div img {
+  width: 400px;
+  transition: width 400ms;
+   -webkit-user-drag: none;
+}
+#carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideLeft img {
+  width: 200px;
+}
+#carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideRight img {
+  width: 200px;
+}
+#carousel div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateY(50px) translateX(-50%);
+}
+#carousel img:hover {
+  cursor: pointer;
+}
+
+#carousel div.prev img {
+  width: 300px;
+}
+#carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+#carousel div.prevLeftSecond img {
+  width: 200px;
+}
+#carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+}
+#carousel div.next {
+  z-index: 5;
+  left: 70%;
+  transform: translateY(50px) translateX(-50%);
+}
+#carousel div.next img {
+  width: 300px;
+}
+#carousel div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+#carousel div.nextRightSecond img {
+  width: 200px;
+}
+
+.buttons {
+ 
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+} */
